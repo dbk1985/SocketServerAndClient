@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "E7C4BE5724D2598F0010BD2B"
-               BuildableName = "MSocketServerServer.app"
+               BuildableName = "MSocketServer.app"
                BlueprintName = "MSocketServer"
                ReferencedContainer = "container:MSocketServer.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E7C4BE5724D2598F0010BD2B"
-            BuildableName = "MSocketServerServer.app"
+            BuildableName = "MSocketServer.app"
             BlueprintName = "MSocketServer"
             ReferencedContainer = "container:MSocketServer.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "E7C4BE5724D2598F0010BD2B"
-            BuildableName = "MSocketServerServer.app"
+            BuildableName = "MSocketServer.app"
             BlueprintName = "MSocketServer"
             ReferencedContainer = "container:MSocketServer.xcodeproj">
          </BuildableReference>

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B67BA64CB054153F4F338842 /* Pods_MSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C103AA14361A747988829280 /* Pods_MSocket.framework */; };
+		E73CA4CF24D2C976002517C1 /* MSSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = E73CA4CB24D2C976002517C1 /* MSSocketServer.m */; };
 		E7C4BE5F24D2598F0010BD2B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E7C4BE5E24D2598F0010BD2B /* GameScene.sks */; };
 		E7C4BE6124D2598F0010BD2B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E7C4BE6024D2598F0010BD2B /* Actions.sks */; };
 		E7C4BE6424D2598F0010BD2B /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C4BE6324D2598F0010BD2B /* GameScene.m */; };
@@ -34,6 +35,8 @@
 		05E558946B8E7C0220492C6E /* Pods-MSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSocket.debug.xcconfig"; path = "Target Support Files/Pods-MSocket/Pods-MSocket.debug.xcconfig"; sourceTree = "<group>"; };
 		A02D76A41D922244B707DEB5 /* Pods-MSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MSocket.release.xcconfig"; path = "Target Support Files/Pods-MSocket/Pods-MSocket.release.xcconfig"; sourceTree = "<group>"; };
 		C103AA14361A747988829280 /* Pods_MSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E73CA4CB24D2C976002517C1 /* MSSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSSocketServer.m; sourceTree = "<group>"; };
+		E73CA4CE24D2C976002517C1 /* MSSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSSocketServer.h; sourceTree = "<group>"; };
 		E7C4BE5824D2598F0010BD2B /* MSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C4BE5E24D2598F0010BD2B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		E7C4BE6024D2598F0010BD2B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -102,6 +105,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E73CA4CA24D2C976002517C1 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				E73CA4CB24D2C976002517C1 /* MSSocketServer.m */,
+				E73CA4CE24D2C976002517C1 /* MSSocketServer.h */,
+			);
+			name = Server;
+			path = ../../../MSocketServer/MSocket/Socket/Server;
+			sourceTree = "<group>";
+		};
 		E7C4BE4F24D2598F0010BD2B = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +158,7 @@
 		E7C4BF6924D271690010BD2B /* Socket */ = {
 			isa = PBXGroup;
 			children = (
+				E73CA4CA24D2C976002517C1 /* Server */,
 				E7C4BF6C24D271900010BD2B /* Client */,
 			);
 			path = Socket;
@@ -312,6 +326,7 @@
 				E7C4BF9624D2C2660010BD2B /* DDMultiFormatter.m in Sources */,
 				E7C4BE6424D2598F0010BD2B /* GameScene.m in Sources */,
 				E7C4BF9224D2C2660010BD2B /* DDTTYLogger.m in Sources */,
+				E73CA4CF24D2C976002517C1 /* MSSocketServer.m in Sources */,
 				E7C4BF9524D2C2660010BD2B /* DDDispatchQueueLogFormatter.m in Sources */,
 				E7C4BF9A24D2C2660010BD2B /* DDFileLogger.m in Sources */,
 				E7C4BF9924D2C2660010BD2B /* DDAbstractDatabaseLogger.m in Sources */,

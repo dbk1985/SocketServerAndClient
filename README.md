@@ -1,6 +1,7 @@
 # SocketServerAndClient
 Ios设备通过Socket来相互传输数据，Socket基于[CocoaAsyncSocket](https://github.com/robbiehanson/CocoaAsyncSocket)
-## 视频欣赏：
+## 视频欣赏：  
+观看视频需要您的网络可以访问youtube  
 [![Iphone 通过Socket相互传递数据](https://res.cloudinary.com/marcomontalbano/image/upload/v1596102407/video_to_markdown/images/youtube--aM0hI6aouDE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/aM0hI6aouDE "Iphone 通过Socket相互传递数据")  
 
 ## 支不支持看你心情！！！！  
